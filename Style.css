@@ -42,16 +42,21 @@
   background-size: cover;
   background-position: center;
 }
+
 .home-text_1 {
   color: #172b4d;
   background: transparent;
+  font-family: Inter, Arial, sans-serif;
 }
+
 .home-text_2 {
   color: #36b37e;
   background: transparent;
+  font-family: Inter, Arial, sans-serif;
 }
+
 #home-text_title {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-weight: 800;
   font-size: 40px;
   line-height: 52px;
@@ -60,8 +65,9 @@
   width: 920px;
   height: 70px;
 }
+
 #home-text_title_1 {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-weight: 800;
   font-size: 40px;
   line-height: 52px;
@@ -70,34 +76,42 @@
   width: 920px;
   height: 70px;
 }
+
 .home p {
   margin-top: 0%;
   width: 526.6px;
   height: 81px;
 }
+
 #V {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    cursor: pointer;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.icons {
+  background: transparent;
+}
 
 @media screen and (max-width: 768px) {
-.home p {
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  width: 327px;
-  height: 164px;
-  margin-top: 15%;
+  .home p {
+    font-family: Inter, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    width: 327px;
+    height: 164px;
+    margin-top: 15%;
   }
+
   #home-text_title {
     width: 254px;
     height: 160px;
   }
+
   #home-text_title_1 {
     width: 254px;
     height: 104px;
