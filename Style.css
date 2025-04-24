@@ -75,6 +75,13 @@
   width: 526.6px;
   height: 81px;
 }
+#V {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+  }
 
 @media screen and (max-width: 768px) {
 .home p {
